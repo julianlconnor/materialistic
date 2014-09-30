@@ -1,6 +1,8 @@
 # Materialistic
 
-![materialistic](http://media.giphy.com/media/r2vGd8UzaqlOw/giphy.gif "materialistic")
+<p align="center">
+    <img src="http://media.giphy.com/media/r2vGd8UzaqlOw/giphy.gif" />
+</p>
 
 A promise based product scraper written in js.
 
