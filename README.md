@@ -1,5 +1,7 @@
 # Materialistic
 
+![materialistic](http://media.giphy.com/media/r2vGd8UzaqlOw/giphy.gif "materialistic")
+
 A promise based product scraper written in js.
 
 Fetch the following from any ecomm site:
