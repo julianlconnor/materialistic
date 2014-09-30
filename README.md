@@ -42,3 +42,19 @@ materialistic.fetch(url).then(function(product) {
 //   ]
 // }
 ```
+
+## How it works
+
+Materialistic takes a plugin based approach to scraping products. When a `url` is passed to the library, materialistic will decide what plugin to call in order to scrape the page.
+
+E.g., passing the url `http://www1.macys.com/shop/product/hawke-co-outfitter-lightweight-packable-jackets?ID=1509132` will invoke the macys plugin in order to fetch the page.
+
+
+## How to add a plugin
+
+TBD
+
+Idea right now:
+Plugin must be named `materialistic-HOST`, `HOST` being the hostname of the ecomm site.
+Plugin must have a fetch method, fetch method must return a promise that is resolved with product json.
+
