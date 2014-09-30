@@ -20,21 +20,21 @@ materialistic.fetch(url).then(function(product) {
   console.log(product);
 }).catch(console.error);
 
-{
-  brand: 'Nike',
-  name: 'Air Jordan',
-  price: '$200',
-  currency: 'USD',
-  availability: [
-    {
-      size: '7',
-      color: 'white'
-    },
-    {
-      size: '7.5',
-      color: 'white'
-    },
-    ..
-  ]
-}
+// {
+//   brand: 'Nike',
+//   name: 'Air Jordan',
+//   price: '$200',
+//   currency: 'USD',
+//   availability: [
+//     {
+//       size: '7',
+//       color: 'white'
+//     },
+//     {
+//       size: '7.5',
+//       color: 'white'
+//     },
+//     ..
+//   ]
+// }
 ```
