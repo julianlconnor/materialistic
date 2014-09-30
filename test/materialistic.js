@@ -16,6 +16,7 @@ describe('materialistic', function() {
     var revert = materialistic.__set__('fs', {
       exists: function() { return true; }
     });
+
     materialistic.__set__('loadPlugin', function(path) {
       expect(path).to.be('plugins/foo.bar');
       return { 
@@ -25,6 +26,7 @@ describe('materialistic', function() {
         }
       };
     });
+
     materialistic('http://foo.bar/baz/123');
   });
 
@@ -37,6 +39,7 @@ describe('materialistic', function() {
         }
       };
     });
+
     materialistic('http://nope-lol');
   });
   
@@ -44,8 +47,8 @@ describe('materialistic', function() {
     var spy = sinon.spy(function(url) {
       return Promise.resolve();
     });
+
     materialistic.__set__('loadPlugin', function(path) {
-      expect(path).to.be('plugins/default');
       return { 
         fetch: spy
       };
