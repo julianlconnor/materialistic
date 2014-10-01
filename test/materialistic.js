@@ -9,7 +9,6 @@ var mockLoadPlugin = function(path) {
   return Promise.resolve();
 };
 
-
 describe('materialistic', function() {
 
   it('should require the plugin for a given host', function(done) {
