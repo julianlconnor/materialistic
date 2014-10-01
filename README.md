@@ -20,7 +20,7 @@ var materialistic = require('materialistic');
 
 var url = 'http://anecommsite.com/gear';
 
-materialistic.fetch(url).then(function(product) {
+materialistic(url).then(function(product) {
   console.log(product);
 }).catch(console.error);
 
