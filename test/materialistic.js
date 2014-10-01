@@ -17,7 +17,7 @@ describe('materialistic', function() {
     });
 
     materialistic.__set__('loadPlugin', function(path) {
-      expect(path).to.be('plugins/foo.bar');
+      expect(path).to.be('materialistic-foo.bar');
       return { 
         fetch: function() {
           revert();
@@ -31,7 +31,7 @@ describe('materialistic', function() {
 
   it('should require the plugin for a given host', function(done) {
     materialistic.__set__('loadPlugin', function(path) {
-      expect(path).to.be('plugins/default');
+      expect(path).to.be('materialistic-default');
       return { 
         fetch: function() {
           done();
