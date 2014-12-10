@@ -10,7 +10,6 @@
     "request": "~2.44.0",
     "bluebird": "~2.3.4",
     "cheerio": "~0.17.0",
-    "materialistic": "git+https://git@github.com/muffs/materialistic.git",
     "materialistic-default": "git+https://git@github.com/muffs/materialistic-default.git",
     "materialistic-www.machusonline.com": "git+https://git@github.com/muffs/materialistic-www.machusonline.com"
   },
