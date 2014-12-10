@@ -18,7 +18,7 @@ Fetch the following from any ecomm site:
 ```javascript
 var materialistic = require('materialistic');
 
-var url = 'http://anecommsite.com/gear';
+var url = 'http://site.com/gear';
 
 materialistic(url).then(function(product) {
   console.log(product);
